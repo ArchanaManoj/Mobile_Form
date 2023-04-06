@@ -1,0 +1,109 @@
+.nav-container .fa,
+.nav-bar {
+  color: white;
+}
+
+.symb {
+  color: rgb(215, 183, 253);
+}
+
+.nav-container {
+  /* position: fixed; */
+}
+
+.top-func {
+  height: 20px;
+  background-color: rgb(75, 1, 209);
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.symb-func {
+  font-size: 25px;
+}
+
+.nav-bar {
+  background-color: rgb(77, 2, 238);
+  padding: 25px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-left {
+  margin-right: auto;
+  font-weight: 600;
+}
+
+.nav-right {
+  margin-left: auto;
+}
+
+.nav-left > a {
+  padding-right: 15px;
+}
+
+.nav-right > a {
+  padding-left: 15px;
+}
+
+.form-container {
+  min-width: 350px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-content: center;
+  justify-content: space-between;
+  justify-items: center;
+  margin: 20px;
+}
+
+.form-elem {
+  padding: 25px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.form-elem .fa {
+  opacity: 0.5;
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+.form-elem input,
+.form-elem select {
+  height: 40px;
+  margin: 0 10px;
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+}
+
+.odd input,
+.odd select {
+  background-color: rgb(236, 234, 234);
+  border-color: transparent transparent grey;
+}
+
+.full input {
+  width: 80%;
+}
+
+.fa-globe {
+  visibility: hidden;
+}
+
+.form-elem select {
+  height: 60px;
+}
+
+#state {
+  width: 50%;
+}
+
+#zip {
+  width: 30%;
+}
