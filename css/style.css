@@ -1,10 +1,10 @@
 .nav-container .fa,
 .nav-bar {
-  color: white;
+  color: var(--font-color-basic);
 }
 
 .symb {
-  color: rgb(215, 183, 253);
+  color: var(--sym-color);
 }
 
 .nav-container {
@@ -13,7 +13,7 @@
 
 .top-func {
   height: 20px;
-  background-color: rgb(75, 1, 209);
+  background-color: var(--font-color-topnav);
   padding: 8px;
   display: flex;
   align-items: center;
@@ -25,7 +25,7 @@
 }
 
 .nav-bar {
-  background-color: rgb(77, 2, 238);
+  background-color: var(--font-color-nav-menu);
   padding: 25px;
   font-size: 20px;
   display: flex;
@@ -79,13 +79,13 @@
   padding: 8px;
   font-size: 15px;
   border-radius: 5px;
-  border: 1px solid lightgrey;
+  border: var(--input-box-border);
 }
 
 .odd input,
 .odd select {
-  background-color: rgb(236, 234, 234);
-  border-color: transparent transparent grey;
+  background-color: var(--input-background-color);
+  border-color: var(--input-border-color);
 }
 
 .full input {

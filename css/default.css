@@ -1,3 +1,14 @@
+:root {
+  --font-color-basic: #FFF;
+  --font-color-input: lightslategrey;
+  --font-color-topnav: rgb(75, 1, 209);
+  --font-color-nav-menu: rgb(77, 2, 238);
+  --sym-color: rgb(215, 183, 253);
+  --input-background-color: rgb(236, 234, 234);
+  --input-border-color: transparent transparent grey;
+  --input-box-border: 1px solid lightgrey;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -15,5 +26,5 @@ a {
 
 input, select {
   font-weight: 400;
-  color: lightslategrey;
+  color: var(--font-color-input);
 }
