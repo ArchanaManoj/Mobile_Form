@@ -1,3 +1,7 @@
+form {
+  padding-top: 150px;
+}
+
 .nav-container .fa,
 .nav-bar {
   color: var(--font-color-basic);
@@ -8,7 +12,11 @@
 }
 
 .nav-container {
-  /* position: fixed; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
 }
 
 .top-func {
